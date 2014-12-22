@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<meta charset="UTF-8" />
+    <title>Шаблон Bootstrap 101</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link  href="css/mStyle.css" rel="stylesheet"/>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+  
+  <body>
+  	
+  	<div class="container col-md-12">
+  		
+  		<div class="row" id="header">
+  			<div class="span12">Header</div>
+  		</div>
+  		
+  		<div class="row" id="content">
+  			<div class="span3 col-md-3">Sidebar</div>
+	  			<div class="span9 col-md-9">
+	  				<div class="row">
+	  					<div class="span2 col-md-2"><img src="images/kat1.jpg" alt="kat" class="img-polaroid"/></div>
+	  					<span>&nbsp;</span>
+	  					<div class="span4 col-md-5">
+	  						<h4>News 11</h4>
+	  						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut perspiciatis obcaecati voluptas laboriosam molestias a error repudiandae itaque fugit officiis recusandae voluptatibus dolorem sapiente aliquid omnis nulla exercitationem? Laboriosam mollitia.</p>
+	  						</div>
+	  					</div>
+	  				<table class="col-md-3 table table-striped table-bordered table-bordered">
+	  				<thead>
+	  					<tr>
+	  						<th><i class="icon-th-list icon-search icon-white"> </i> №</th>
+	  						<th><i class="icon-flag icon-white"> </i> Имя</th>
+	  						<th><i class="icon-tag icon-white"> </i> Фамилия</th>
+	  						<th><i class="icon-calendar icon-white"> </i> Год р.</th>
+	  					</tr>
+	  				</thead>
+	  				<tbody>
+	  					<tr>
+	  						<td>1</td>
+	  						<td>Дима</td>
+	  						<td>Валак</td>
+	  						<td>1999</td>
+	  					</tr>
+	  						<td>2</td>
+	  						<td>Иван</td>
+	  						<td>Иванов</td>
+	  						<td>1991</td>
+	  					</tr>
+	  						<td>3</td>
+	  						<td>Андрей</td>
+	  						<td>Ка</td>
+	  						<td>1992</td>
+	  					</tr>
+	  				</tbody>
+	  			</table>
+	  			<h4>Добавить пользователя</h4>
+	  			<form class="form-horizontal col-md-5">
+					<div class="control-group">
+					<label class="control-label" >Имя</label>
+						<div class="controls input-append">
+							<input type="text" placeholder="Вася" name="name"><span class="add-on"></span>
+						</div><br>
+					</div>
+					<div class="control-group">
+					<label class="control-label">Фамилия</label>
+						<div class="controls">
+							<input type="text" placeholder="Пупкн" name="sname">
+						</div><br>
+					</div>
+				  	<div class="control-group">
+				    <label class="control-label">Год р.</label>
+					    <div class="controls">
+					      <input type="text" placeholder="1991" name="year">
+					    </div>
+				  	</div>
+				  	<div class="control-group">
+				    <label class="control-label"></label>
+					    <div class="controls">
+					      <input type="submit" name="Add" value="Добавить" class="btn btn-success">
+					    </div>
+				  	</div>
+				  	
+				</form>
+	  			
+	  			</div>
+	  		<script type="text/javascript" src="js/jquery-2.1.1.min.js">
+	  			var maxHeight = 0;
+ 
+					$(".content").each(function(){
+					  if ( $(this).height() > maxHeight ) 
+					  {
+					    maxHeight = $(this).height();
+					  }
+					});
+					 
+					$(".content").height(maxHeight);
+	  		</script>	
+  		</div>
+  		<div class="row" id="footer">
+  			<div class="span12">Footer</div>
+  		</div>
+  		
+  	</div>
+    
+    
+  </body>
+  
+</html>

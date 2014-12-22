@@ -1,0 +1,60 @@
+
+body {
+	background: url(../images/3109.jpg);
+	margin:0 auto;
+	background-repeat: repeat-x;
+}
+
+#header {
+	background: #ccc;
+	height: 50px;
+}
+#content {
+	height: auto;
+	background: #ffffff;
+}
+h4 {
+	margin: 25px 0 0 15px;
+}
+.span2 {
+	padding: 15px;
+}
+.span4 p {
+	padding: 15px;
+}
+.span4 h4 {
+	padding: 0 0 0 15px;
+}
+.span3 {
+	background: #3A87AD;
+	display: block;
+	}
+.span9 {
+	/*background: #B94A48;*/
+	}
+.table {
+	margin: 10px 0;
+}
+	
+.table thead tr {
+	background: #DBC59E;
+	color: #222222;
+}
+.form-horizontal {
+	margin: 10px 0;
+}	
+#footer {
+	background: #EC971F;
+	height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+

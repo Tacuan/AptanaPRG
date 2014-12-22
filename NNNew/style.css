@@ -1,0 +1,25 @@
+body {
+	font: 1em Arial;
+	background:#CCCCCC;
+}
+.container {
+	background:#999;
+	display:block;
+	width:200px;
+	height:100px;
+	margin:20px;
+	padding:20px;
+}
+.container-inner {
+	background:#ccc;
+	position:fixed;
+	top:20px;
+	right:25px;
+}
+
+a {
+	width:500px;
+	height:25px;
+	background:#222;
+	display:block;
+}
